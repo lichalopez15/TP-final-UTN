@@ -1,6 +1,6 @@
 header {
-    display: flex;
-    justify-content: end;
+    display: inline-block;
+    margin-left: 70%;
     padding: 15px;
     background-color: #427E80;
     
