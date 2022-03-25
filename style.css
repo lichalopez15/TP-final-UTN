@@ -68,6 +68,7 @@ nav {
     text-align: center;
     color: #F0F5E4;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10%;
 }
 
 
@@ -80,6 +81,7 @@ body {
     grid-template-columns: 30% 30%;
     grid-column-gap: 20%;
     margin-left: 15%;
+    margin-top: 10%;
 }
 
 .cardPosition {
@@ -138,6 +140,9 @@ body {
     text-align: center;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    width: 70px;
+    margin-left: 40%;
 }
 
 #tituloFooter2 {
