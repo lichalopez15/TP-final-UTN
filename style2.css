@@ -21,7 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 40px;
+    margin: 0px 90px;
 }
 
 .menuSuperior2 {
@@ -173,4 +173,29 @@ nav {
     background-color: #F0F5E4;
     color: #154454;
     width: 70px;
+}
+
+.Footer {
+    display: flex;
+    background-color: #1d1d1d;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    margin-top: 20%;
+}
+
+#Footer2 {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    width: 70px;
+    margin-left: 40%;
+}
+
+#Footer3 {
+    font-family: 'Montserrat', sans-serif;
 }
