@@ -1,0 +1,71 @@
+header {
+    display: inline-block;
+    margin-left: 70%;
+    padding: 15px;
+    background-color: #427E80;
+    
+}
+
+body {
+    margin: 0%;
+    background-color: #427E80;
+    overflow-x: hidden;
+}
+
+.menu3 {
+    padding: 0px;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 90px;
+}
+
+.menuSuperior3 {
+    box-shadow: 2px 3px #154454;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #F0F5E4;
+    color: #154454;
+    font-weight: 300;
+}
+
+
+#titulo3 {
+    
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    background-color: #2D2D2D;
+    text-shadow: 4px 4px black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+    font-size: 56px;
+   
+
+}
+
+.home3 {
+    background: url(./codigo.jpeg);
+    visibility: visible;
+    min-height: 500px;
+    justify-content: center;
+    display: flex;
+    background-attachment: fixed;
+    
+}
+
+#subtitulo3 {
+    margin-left: 10%;
+    margin-top: 120px;
+    color: #F0F5E4;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px #154454;
+    font-size: 40px;
+    width: 90%;
+}
