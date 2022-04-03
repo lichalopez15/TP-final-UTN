@@ -12,3 +12,5 @@ botonPlay.addEventListener ('click',()=>{
 botonPausa.addEventListener ('click',()=>{
     video.pause()
 });
+
+

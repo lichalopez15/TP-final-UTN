@@ -1,7 +1,7 @@
 header {
     display: inline-block;
-    margin-left: 70%;
-    padding: 15px;
+    margin-left: 60%;
+    padding: 10px;
     background-color: #427E80;
     
 }
@@ -20,6 +20,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0px 40px;
+    
+    
+
+    
 }
 
 .menuSuperior {
