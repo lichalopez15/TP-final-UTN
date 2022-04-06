@@ -1,17 +1,21 @@
 
-let botonPlay = document.getElementById ("botonPlay");
 
-let botonPausa = document.getElementById ("botonPausa");
+
+let botonPlay1 = document.getElementById ('botonPlay');
+
+let botonPausa1 = document.getElementById ('botonPausa');
 
 let video = document.querySelector ('video');
 
-botonPlay.addEventListener ('click',()=>{
-    video.play ()
+botonPlay1.addEventListener ('click',()=>{
+    video.play()
 });
 
-botonPausa.addEventListener ('click',()=>{
+botonPausa1.addEventListener ('click',()=>{
     video.pause()
-});
+}); 
+
+
 
 let puzzle = document.getElementById ('puzzle1');
 
@@ -44,5 +48,40 @@ function soltarElemento (evento) {
 function prevenirDefault (evento) {
     evento.preventDefault()
 }
+
+
+
+let puzzles = document.getElementById ('puzzle2');
+
+let caja2 = document.getElementById ('box2');
+
+puzzles.addEventListener ('dragstart',inicioTraslado2);
+
+puzzles.addEventListener ('dragend',finalDeTraslado2);
+
+function inicioTraslado2 (evento){
+    evento.dataTransfer.setData ('Text',"../rompe2.png");
+
+};
+
+function finalDeTraslado2 (evento){
+    puzzles.style.visibility="hidden";
+};
+
+caja2.addEventListener ('dragover',prevenirDefault2);
+
+caja2.addEventListener ('drop',soltarElemento1);
+
+function soltarElemento1 (evento) {
+
+    let contentImagen= evento.dataTransfer.getData ('Text');
+    caja2.innerHTML= `<img id="puzzle2" src= "${contentImagen}"/>`
+};
+
+function prevenirDefault2 (evento) {
+    evento.preventDefault()
+};
+
+
 
 
