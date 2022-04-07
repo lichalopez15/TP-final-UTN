@@ -53,7 +53,7 @@ nav {
 }
 
 .home {
-    background: url(./codigo.jpeg);
+    background: url(./assets/codigo.jpeg);
     visibility: visible;
     min-height: 500px;
     justify-content: center;

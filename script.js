@@ -9,7 +9,7 @@ puzzle.addEventListener ('dragstart',inicioTraslado);
 puzzle.addEventListener ('dragend',finalDeTraslado);
 
 function inicioTraslado (evento){
-    evento.dataTransfer.setData ('Text',"../Rompe1.png");
+    evento.dataTransfer.setData ('Text',"../assets/Rompe1.png");
 };
 
 function finalDeTraslado (evento) {
@@ -43,7 +43,7 @@ puzzles.addEventListener ('dragstart',inicioTraslado2);
 puzzles.addEventListener ('dragend',finalDeTraslado2);
 
 function inicioTraslado2 (evento){
-    evento.dataTransfer.setData ('Text',"../rompe2.png");
+    evento.dataTransfer.setData ('Text',"../assets/rompe2.png");
 
 };
 
@@ -74,7 +74,7 @@ terceraImagen.addEventListener ('dragstart',inicioTraslado3)
 terceraImagen.addEventListener ('dragend',finalDeTraslado3);
 
 function inicioTraslado3 (evento){
-    evento.dataTransfer.setData ('Text',"../Rompe3.png");
+    evento.dataTransfer.setData ('Text',"../assets/Rompe3.png");
 
 };
 
