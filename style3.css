@@ -1,7 +1,7 @@
 header {
     display: inline-block;
-    margin-left: 70%;
-    padding: 2px;
+    margin-left: 60%;
+    padding: 0px;
     background-color: #427E80;
     
 }
@@ -9,7 +9,7 @@ header {
 body {
     margin: 0%;
     background-color: #427E80;
-    overflow-x: hidden;
+    
 }
 
 .menu3 {

@@ -132,8 +132,6 @@ body {
     display: flex;
     background-color: #1d1d1d;
     height: 95px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 10px;
     color: white;
@@ -151,4 +149,7 @@ body {
 
 #tituloFooter2 {
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-left: 150%;
+    width: 100%;
 }
