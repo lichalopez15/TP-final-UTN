@@ -137,3 +137,66 @@ nav {
     font-weight: 300;
     margin-block: 3%;
 }
+
+svg {
+    overflow: visible;
+}
+
+.animationRect {
+    animation-name: trasladoRect;
+    animation-duration: 4s;
+    animation-fill-mode: none;
+    
+
+}
+
+.animationRect2 {
+    animation-name: trasladoRect2;
+    animation-duration: 4s;
+    animation-fill-mode: none;
+    animation-delay: 0.5s;
+    
+  
+}
+
+
+.animationPolygon1 {
+    animation-name: trasladoPolygon;
+    animation-duration: 4s;
+    animation-fill-mode: none;
+    
+}
+
+.animationPolygon2 {
+    animation-name: trasladoPolygon2;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-fill-mode: none;
+}
+
+
+
+@keyframes trasladoRect {
+    0% {
+        transform: translateY(-80px);
+    }
+
+}
+
+@keyframes trasladoRect2 {
+    0% {
+        transform: translateY(-70px);
+    }
+}
+
+@keyframes trasladoPolygon {
+    0% {
+        transform: translateY(-90px);
+    }
+}
+
+@keyframes trasladoPolygon2 {
+    0% {
+        transform: translateY(-70px);
+    }
+}
