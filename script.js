@@ -101,6 +101,10 @@ let boton = document.getElementById ('botonReset');
 let juego = document.getElementById ('imagenesPuzzle');
 
 boton.addEventListener ('click',()=>{
-    
+
+   
+   
 
 })
+
+
