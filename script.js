@@ -98,13 +98,33 @@ function prevenirDefault3 (evento) {
 
 let boton = document.getElementById ('botonReset');
 
-let juego = document.getElementById ('imagenesPuzzle');
+let destino = document.getElementsByClassName ('zonaJuego');
+
+let rompecabezas1 = document.getElementById ('box1')
+
+let imagen1 = document.getElementById ('puzzle1')
+
+let rompecabezas2 = document.getElementById ('box2')
+
+let imagen2 = document.getElementById ('puzzle2')
+
+let rompecabezas3 = document.getElementById ('box3')
+
+let imagen3 = document.getElementById ('puzzle3')
 
 boton.addEventListener ('click',()=>{
+    
+    
+    rompecabezas1.innerHTML = `<div class ="zonaJuego"></div>`
+    imagen1.style.visibility ='visible'
 
-   
-   
+    rompecabezas2.innerHTML = `<div class="zonaJuego"></div>`
+    imagen2.style.visibility = 'visible'
 
+    rompecabezas3.innerHTML = `<div class="zonaJuego"></div>`
+    imagen3.style.visibility = 'visible'
+
+    
 })
 
 
