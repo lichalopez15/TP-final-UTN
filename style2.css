@@ -34,6 +34,10 @@ nav {
     font-weight: 300;
 }
 
+.font2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 #titulo2 {
     
@@ -42,7 +46,6 @@ nav {
     margin: 200px;
     background-color: #2D2D2D;
     text-shadow: 4px 4px black;
-    font-family: 'Montserrat', sans-serif;
     color: white;
     height: fit-content;
     font-size: 56px;
@@ -75,14 +78,12 @@ nav {
     font-size: 35px;
     text-align: center;
     color: #F0F5E4;
-    font-family: 'Montserrat', sans-serif;
     width: 80%;
     margin-left: 5%;
 }
 
 #parrafo1 {
     width: 150%;
-    font-family: 'Montserrat', sans-serif;
     margin-top: 9%;
 }
 
@@ -100,18 +101,17 @@ nav {
 }
 
 #historia2 {
-    margin-left: 50%;
+    margin-left: 40%;
     width: 80%;
     text-shadow: 2px 2px #154454;
     font-size: 40px;
     text-align: center;
     color: #F0F5E4;
-    font-family: 'Montserrat', sans-serif;
+    
 }
 
 #parrafo2 {
     margin-left: 5%;
-    font-family: 'Montserrat', sans-serif;
 }
 
 #contenedor3 {
@@ -129,12 +129,11 @@ nav {
     font-size: 30px;
     text-align: center;
     color: #F0F5E4;
-    font-family: 'Montserrat', sans-serif;
+    
 }
 
 #parrafo3 {
     width: 200%;
-    font-family:'Montserrat', sans-serif; 
     
 }
 
@@ -192,7 +191,6 @@ nav {
 #Footer2 {
     text-align: center;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
     justify-content: center;
     width: 70px;
     margin-left: 40%;
@@ -205,7 +203,6 @@ nav {
 }
 
 #Footer3 {
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     margin-left: 150%;
     width: 100%;

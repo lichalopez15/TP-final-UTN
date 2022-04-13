@@ -44,12 +44,15 @@ nav {
     margin: 200px;
     background-color: #2D2D2D;
     text-shadow: 4px 4px black;
-    font-family: 'Montserrat', sans-serif;
     color: white;
     height: fit-content;
     font-size: 56px;
    
 
+}
+
+.font {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .home {
@@ -61,9 +64,6 @@ nav {
     background-attachment: fixed;
     
 
-   
-    
-    
 }
 
 #subtitulo {
@@ -71,7 +71,6 @@ nav {
     font-size: 40px;
     text-align: center;
     color: #F0F5E4;
-    font-family: 'Montserrat', sans-serif;
     margin-top: 10%;
 }
 
@@ -141,14 +140,12 @@ body {
 #tituloFooter {
     text-align: center;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
     justify-content: center;
     width: 70px;
     margin-left: 40%;
 }
 
 #tituloFooter2 {
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     margin-left: 150%;
     width: 100%;
