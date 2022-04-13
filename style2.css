@@ -50,7 +50,6 @@ nav {
     height: fit-content;
     font-size: 56px;
    
-
 }
 
 .home2 {
@@ -61,8 +60,6 @@ nav {
     display: flex;
     background-attachment: fixed;
     
-
-   
 }
 
 .contenido {
@@ -70,7 +67,6 @@ nav {
     grid-template-columns: 2fr;
     grid-template-rows: 200px 200px 200px;
     grid-column-gap: 15%;
-
 }
 
 #historia1 {
@@ -111,7 +107,7 @@ nav {
 }
 
 #parrafo2 {
-    margin-left: 5%;
+    margin-left: 8%;
 }
 
 #contenedor3 {
@@ -226,7 +222,6 @@ svg {
     animation-fill-mode: none;
     animation-delay: 0.5s;
     
-  
 }
 
 

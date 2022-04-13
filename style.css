@@ -21,9 +21,6 @@ nav {
     align-items: center;
     margin: 0px 40px;
     
-    
-
-    
 }
 
 .menuSuperior {
@@ -48,7 +45,6 @@ nav {
     height: fit-content;
     font-size: 56px;
    
-
 }
 
 .font {
@@ -63,7 +59,6 @@ nav {
     display: flex;
     background-attachment: fixed;
     
-
 }
 
 #subtitulo {
@@ -161,7 +156,6 @@ svg {
     animation-duration: 4s;
     animation-fill-mode: none;
     
-
 }
 
 .animationRect2 {
@@ -170,7 +164,6 @@ svg {
     animation-fill-mode: none;
     animation-delay: 0.5s;
     
-  
 }
 
 
@@ -178,7 +171,7 @@ svg {
     animation-name: trasladoPolygon;
     animation-duration: 4s;
     animation-fill-mode: none;
-    
+
 }
 
 .animationPolygon2 {
